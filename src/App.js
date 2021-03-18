@@ -14,6 +14,7 @@ function App() {
       <div className='fond'>
       <Moi />
       <h2 className="info">Information</h2>
+      <hr/>
       <Contacte/>
       <Informatique/>
       <Langue/>
