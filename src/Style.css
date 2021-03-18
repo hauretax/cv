@@ -1,0 +1,71 @@
+
+.App {
+    display: flex;
+}
+
+.fond {
+    background-color: rgb(14, 14, 29);
+    color: aliceblue;
+    height: 100vh;
+}
+
+.text {
+    background-color: rgb(68, 36, 77);
+    color: aliceblue;
+    margin: 5px
+}
+
+.date {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.about {
+    margin: 10px;
+}
+
+.centremoi{
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+    
+}
+
+li{
+    text-align: center;
+}
+
+
+h1{
+    text-align: center; 
+    margin : 0;
+    margin-bottom: 2px;
+}
+h2{
+    text-align: center;
+    margin : 0;
+
+}
+h3{
+    text-align: center; 
+    margin : 0;
+}
+
+div p {
+    margin: -3;
+}
+
+
+.info{
+    margin-bottom : 5px;
+}
+
+  
