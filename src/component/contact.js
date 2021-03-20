@@ -5,7 +5,7 @@ export default function Contact() {
         <div className='centrediv'>
             <div className='text flex' >
                 <p>0761117714</p>
-                <p><a href="mailto:huggo.tricottet@protonmail.ch">huggo.tricottet@protonmail.ch </a></p> 
+                <p><a href="mailto:huggotrico@protonmail.ch">HuggoTrico@protonmail.ch</a></p> 
             </div>
         </div>
     )
