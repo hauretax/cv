@@ -1,10 +1,10 @@
 export default function Interet(){
-    return( <div>
-        <h2>centres d interet</h2>
+    return( <div className='solo centrediv'>
+        <h3>Centres d'intêret</h3>
+        <hr/>
             <ul>
-                <li>Je suis une personne tres curieuse se qui fait que tout me passionne</li>
-                <li>j aime echanger avec les gens sur tout les sujet .Cela apport une nouvelle vision </li>
-                <li>je joue de 5 instrument de musique different</li>
+                <li>Musique : 5 instruments appris en autodidacte</li>
+                <li>passionner par le rally</li>
             </ul>
             </div>)
     }

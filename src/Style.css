@@ -1,31 +1,51 @@
+html { -webkit-print-color-adjust: exact; }
 
-.App {
-    display: flex;
+div, a, .fond {
+    color: aliceblue;
 }
 
 .fond {
-    background-color: rgb(14, 14, 29);
-    color: aliceblue;
-    height: 100vh;
+    background-color: #629460;
+    height: 125px;
 }
 
-.text {
-    background-color: rgb(68, 36, 77);
-    color: aliceblue;
-    margin: 5px
+.page {
+    background-color: #393E41 ;
+    height: 995px;
 }
+
+
+.moov{
+    padding-right: 5px;
+}
+
+.truc {
+    display: flex;
+}
+
 
 .date {
     display: flex;
     margin-bottom: 5px;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .about {
     margin: 10px;
+    margin-top: 0px;
 }
 
 .centremoi{
     text-align: center;
+}
+
+.centrediv{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -37,6 +57,11 @@ ul {
     padding-left: 0px;
     list-style: none;
     
+}
+
+.magie {
+    margin-right: 10px;
+    padding-left: 10px;
 }
 
 li{
@@ -55,7 +80,7 @@ h2{
 
 }
 h3{
-    text-align: center; 
+    text-align: left;
     margin : 0;
 }
 
@@ -66,7 +91,14 @@ div p {
 
 .info{
     margin-bottom : 5px;
-    margin-top : 20px;
+    margin-top : 2px;
 }
 
+.solo{
+    width: 80%;
+}
   
+
+div {
+   font-size: 1.02em; 
+}

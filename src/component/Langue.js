@@ -1,13 +1,24 @@
 import '../Style.css'
 
 export default function Langue() {
-    return(
+    return (
         <div className='centremoi'>
-            <h3>langue</h3>
-            <div > francais </div>
-             <progress id="file" max="100" value="97"/> 
-            <div > anglais </div>
-             <progress id="file" max="100" value="65"> 70% </progress>
+            <h3>Anglais</h3>
+            <hr />
+            <div className = 'flex'>
+                <div className="moov">
+                    <div > technique </div>
+                    <progress id="file" max="100" value="70" />
+                    <div > oral </div>
+                    <progress id="file" max="100" value="45"/>   
+                     </div>
+                <div>
+                    <div > écrit </div>
+                    <progress id="file" max="100" value="60" />
+                    <div > lu </div>
+                    <progress id="file" max="100" value="95"/> 
+                    </div>
+            </div>
         </div>
     )
 }
