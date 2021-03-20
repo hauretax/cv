@@ -7,9 +7,9 @@ export default function Etre() {
             <hr/>
             <ul>
                 <li>Réaliser un projet</li>
-                <li>Travailler en equipe</li>
+                <li>Travaillé en equipe</li>
                 <li>Capacité d'adaptation</li>
-                <li>Grand curiosité sur tous les sujets</li>
+                <li>Grande curiosité</li>
             </ul>
         </div>
     )

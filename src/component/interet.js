@@ -4,7 +4,7 @@ export default function Interet(){
         <hr/>
             <ul>
                 <li>Musique : 5 instruments appris en autodidacte</li>
-                <li>passionner par le rally</li>
+                <li>Passionné par le rallye</li>
             </ul>
             </div>)
     }
