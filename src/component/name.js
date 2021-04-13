@@ -7,7 +7,7 @@ function Moi(){
         <div className="truc">
           <Contact />
         </div>
-        <h2 className="info">Développeur web full stack junior</h2>
+        <h2 className="info">Développeur web full stack</h2>
         </div>);
 }
 

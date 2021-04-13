@@ -18,17 +18,17 @@ function App() {
       </div>
       <div className='page'>
         <About />
-        <div className= 'flex'>
+        <div className='flex divide'>
           <Experience />
-          <Formation />
+          <div>
+            <Competence />
+            <Formation />
+            <Langages />
+            <Langue />
+            <Etre />
+            <Interet />
+          </div>
         </div>
-          <Competence />
-        <div className='flex'>
-          <Langages/>
-          <Langue/>
-        </div>
-          <Etre />
-        <Interet />
       </div>
     </div>
   );

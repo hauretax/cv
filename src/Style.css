@@ -9,11 +9,21 @@ div, a, .fond {
     height: 125px;
 }
 
-.page {
+#root {
     background-color: #393E41 ;
-    height: 995px;
+    height: 100%;
+    font-size: 0.8em;
 }
 
+
+
+#exp{
+    font-size: 1.2em;
+}
+
+#exp p {
+    margin-top: 20px;
+}
 
 .moov{
     padding-right: 5px;
@@ -36,7 +46,9 @@ div, a, .fond {
 
 .about {
     margin: 10px;
-    margin-top: 0px;
+    margin-top: 5px;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 .centremoi{
