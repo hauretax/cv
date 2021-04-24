@@ -1,29 +1,52 @@
 html { -webkit-print-color-adjust: exact; }
 
+footer{
+    height: 200px;
+    background-color: #629460;
+
+}
+
+img{
+    border-radius: 25%;
+    width: 90px;
+    position: absolute;
+top: 5px; right: 5px;
+}
 div, a, .fond {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 .fond {
     background-color: #629460;
-    height: 125px;
+    height: 130px;
 }
 
 #root {
-    background-color: #393E41 ;
+    background-color: #ffffff ;
     height: 100%;
     font-size: 0.8em;
 }
 
+.projet{
+    font-size: 2;
 
-
-#exp{
-    font-size: 1.2em;
 }
 
-#exp p {
-    margin-top: 20px;
+#exp div{
+    padding-left: 0px;
+    margin-bottom: 20px;
+
 }
+
+#exp div ul{
+    border-left: 5px solid rgb(25, 104, 1);
+    padding-left: 4px;
+}
+
+#exp div p{
+    padding-bottom: 5px;
+}
+
 
 .moov{
     padding-right: 5px;
@@ -52,7 +75,7 @@ div, a, .fond {
 }
 
 .centremoi{
-    text-align: center;
+    text-align: right;
 }
 
 .centrediv{
@@ -62,8 +85,9 @@ div, a, .fond {
 
 p {
     margin: 5px;
-    text-align: center;
 }
+
+
 
 ul {
     padding-left: 0px;
@@ -71,13 +95,18 @@ ul {
     
 }
 
+.ok{
+    margin: 0px;
+    list-style: circle inside;
+}
+
+.ok li{
+    text-align: left;
+}
+
 .magie {
     margin-right: 10px;
     padding-left: 10px;
-}
-
-li{
-    text-align: center;
 }
 
 
@@ -87,7 +116,7 @@ h1{
     margin-bottom: 2px;
 }
 h2{
-    text-align: center;
+    text-align: left;
     margin : 0;
 
 }
@@ -104,13 +133,25 @@ div p {
 .info{
     margin-bottom : 5px;
     margin-top : 2px;
+    text-align: center;
 }
 
-.solo{
-    width: 80%;
-}
   
 
 div {
    font-size: 1.02em; 
 }
+
+.ranger {
+    text-align: left;
+    width: 400px;
+    margin-right: 5px;
+}
+
+progress {
+    -webkit-appearance: none;
+  }
+
+  ::-webkit-progress-bar {
+    background-color: rgb(148, 243, 148);
+ }

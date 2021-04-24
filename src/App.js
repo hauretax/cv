@@ -14,13 +14,12 @@ function App() {
     <div className="App" >
       <div className='fond'>
         <Moi />
-        <hr />
       </div>
       <div className='page'>
         <About />
         <div className='flex divide'>
           <Experience />
-          <div>
+          <div className ='ranger'>
             <Competence />
             <Formation />
             <Langages />
@@ -30,6 +29,7 @@ function App() {
           </div>
         </div>
       </div>
+      <a href="https://github.com/hauretax/cv"><footer></footer></a>
     </div>
   );
 }
